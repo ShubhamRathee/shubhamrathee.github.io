@@ -1,0 +1,93 @@
+/*STYLESHEET 2 FOR REGISTRATION PAGE*/
+
+.LOGIN{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background: url(BG.jpg);
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.LOGIN_FORM{
+    padding: 20px 40px;
+}
+.LOGIN_FORM font{font-size: 18px;
+color: #130f40;
+margin: 5px 0;}
+.LOGIN_FORM input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.LOGIN_FORM font2{
+    margin-top: 90px;
+}
+.LOGIN_FORM button{
+    margin: 45px 30px;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    background: #1a237e;
+    border-radius: 5px;
+    border: 2PX solid #3949ab;
+    transition: .5s;
+
+}
+.LOGIN_FORM #EMAIL_ERROR,
+.LOGIN_FORM #PASS_ERROR{
+margin-top: 5px;
+width: 345px;
+font-size: 18px;
+color:#dbe910;
+background: rgba(7, 46, 175, 0.1); 
+text-align: center;
+padding: 5px 8px;
+border-radius: 4px;
+border: 1px solid red;
+display: none;
+}
+.LOGIN_FORM button:hover{
+    background: wheat;
+}
+
+.registration{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.registration input{
+    font-size: 16px;
+    padding: 0%;
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    outline: thick;
+}
+
+.registration button{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 2px 5px;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 6px;    
+}
